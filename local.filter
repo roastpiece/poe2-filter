@@ -1,0 +1,65 @@
+Show
+    Class Currency
+    SetBackgroundColor 102 41 10
+    PlayAlertSound 2 300
+    Continue
+
+# scrolls
+Show
+    BaseType "Scroll of Wisdom"
+    SetBackgroundColor 62 21 5 
+    PlayAlertSound 1 0
+
+Show
+    BaseType "Gold"
+    SetBackgroundColor 186 159 58 255
+    PlayAlertSound 1 0
+    SetTextColor 255 255 255
+
+Show
+    BaseType "Chaos Orb" "Exalted Orb" "Orb of Alchemy"
+    SetBackgroundColor 142 61 14
+    PlayAlertSound 1 300
+
+Show
+    BaseType "Mirror of Kalandra"
+    PlayAlertSound 6 300
+    SetTextColor 225 9 0
+	SetBackgroundColor 249 250 255 255
+
+
+Show
+    Class Socketable
+    SetBackgroundColor 10 17 102
+    PlayAlertSound 2 300
+
+Show
+    Class Charms
+    SetBackgroundColor 10 17 102
+    PlayAlertSound 3 300
+    
+Show
+    Rarity >= Rare
+    PlayAlertSound 3 300
+
+Show
+    BaseType "Uncut Spirit Gem"
+    PlayAlertSound 2 300
+    SetBackgroundColor 6 45 134 255
+
+
+Show
+    BaseType "Uncut Skill Gem"
+    PlayAlertSound 2 300
+    SetBackgroundColor 6 15 134 255
+
+Show
+    BaseType "Uncut Support Gem"
+    PlayAlertSound 2 300
+    SetBackgroundColor 36 15 134 255
+
+Show
+    Class Rings Amulets Belts
+    PlayAlertSound 3 300
+    SetBackgroundColor 134 6 89 255
+    SetTextColor 255 255 255
