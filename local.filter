@@ -16,17 +16,19 @@ Show
 
 # even rarer currency # different sound
 Show
-    BaseType "Chaos Orb" "Exalted Orb" "Orb of Alchemy" "Orb of Chance" "Vaal Orb" "Regal Orb" "Artificer's Orb" "Arcanist's Etcher" "Glassblower's Bauble"
+    BaseType "Chaos Orb" "Exalted Orb" "Orb of Alchemy" "Orb of Chance" "Vaal Orb" "Regal Orb" "Artificer's Orb" "Arcanist's Etcher" "Glassblower's Bauble" "Lesser Jeweller's Orb"
     SetBackgroundColor 202 101 34
     PlayAlertSound 1 300
     SetTextColor 5 9 0
+    SetBorderColor 225 9 0
 
 # will never see these lol
 Show
-    BaseType "Mirror of Kalandra" "Divine Orb" "Orb of Annulment" "Gemcutter's Prism"
+    BaseType "Mirror of Kalandra" "Divine Orb" "Orb of Annulment" "Gemcutter's Prism" "Perfect Jeweller's Orb" "Greater Jeweller's Orb"
     PlayAlertSound 6 300
     SetTextColor 225 9 0
     SetBackgroundColor 249 250 255 255
+    SetBorderColor 225 9 0
 
 # essences 
 Show
