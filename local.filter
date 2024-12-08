@@ -1,33 +1,51 @@
 Show
-    Class Currency
-    SetBackgroundColor 102 41 10
-    PlayAlertSound 2 300
-    Continue
+    BaseType "Gold"
 
-# scrolls
+
+# 'common' currency # no sound
 Show
-    BaseType "Scroll of Wisdom"
+    BaseType "Scroll of Wisdom" "Transmutation Shard" 
     SetBackgroundColor 62 21 5 
     PlayAlertSound 1 0
 
+# rare currency # sound
 Show
-    BaseType "Gold"
-    SetBackgroundColor 186 159 58 255
-    PlayAlertSound 1 0
-    SetTextColor 255 255 255
+    BaseType "Regal Shard" "Artificer's Shard" "Orb of Transmutation" "Armourer's Scrap" "Blacksmith's Whetstone" "Orb of Augmentation"
+    SetBackgroundColor 102 41 10
+    PlayAlertSound 2 300
 
+# even rarer currency # different sound
 Show
-    BaseType "Chaos Orb" "Exalted Orb" "Orb of Alchemy"
-    SetBackgroundColor 142 61 14
+    BaseType "Chaos Orb" "Exalted Orb" "Orb of Alchemy" "Orb of Chance" "Vaal Orb" "Regal Orb" "Artificer's Orb" "Arcanist's Etcher" "Glassblower's Bauble"
+    SetBackgroundColor 202 101 34
     PlayAlertSound 1 300
+    SetTextColor 5 9 0
 
+# will never see these lol
 Show
-    BaseType "Mirror of Kalandra"
+    BaseType "Mirror of Kalandra" "Divine Orb" "Orb of Annulment" "Gemcutter's Prism"
     PlayAlertSound 6 300
     SetTextColor 225 9 0
     SetBackgroundColor 249 250 255 255
 
+# essences 
+Show
+    BaseType "Essence of the Body" "Essence of the Mind" "Essence of Enhancement" "Essence of Torment" "Essence of Flames" "Essence of Ice" "Essence of Electricity" "Essence of Ruin" "Essence of Battle" "Essence of Sorcery" "Essence of Haste" "Essence of the Infinite"
+    SetBackgroundColor 102 41 10
+    PlayAlertSound 2 300
 
+# greater essences
+Show
+    BaseType "Greater Essence of the Body" "Greater Essence of the Mind" "Greater Essence of Enhancement" "Greater Essence of Torment" "Greater Essence of Flames" "Greater Essence of Ice" "Greater Essence of Electricity" "Greater Essence of Ruin" "Greater Essence of Battle" "Greater Essence of Sorcery" "Greater Essence of Haste" "Greater Essence of the Infinite"
+    SetBackgroundColor 142 61 14
+    PlayAlertSound 1 300
+
+# other currencies catchall
+Show
+    Class Currency
+    SetBackgroundColor 102 41 10
+    PlayAlertSound 2 300
+ 
 Show
     Class Socketable
     SetBackgroundColor 10 17 102
@@ -37,7 +55,17 @@ Show
     Class Charms
     SetBackgroundColor 10 17 102
     PlayAlertSound 3 300
+
+Show
+    Class Jewels
+    SetBackgroundColor 10 17 102
+    PlayAlertSound 3 300
     
+Show
+    Sockets S
+    PlayAlertSound 3 300
+    SetBorderColor 102 41 10
+
 Show
     Rarity >= Rare
     PlayAlertSound 3 300
