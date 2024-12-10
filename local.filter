@@ -1,6 +1,15 @@
 Show
     BaseType "Gold"
 
+Show
+    Rarity Magic
+    SetBorderColor 119 148 248
+    Continue
+
+Show
+    Rarity Rare
+    SetBorderColor 247 218 83
+    Continue
 
 # 'common' currency # no sound
 Show
@@ -13,6 +22,7 @@ Show
     BaseType "Regal Shard" "Artificer's Shard" "Orb of Transmutation" "Armourer's Scrap" "Blacksmith's Whetstone" "Orb of Augmentation"
     SetBackgroundColor 102 41 10
     PlayAlertSound 2 300
+    MinimapIcon 0 Yellow Diamond
 
 # even rarer currency # different sound
 Show
@@ -21,6 +31,8 @@ Show
     PlayAlertSound 1 300
     SetTextColor 5 9 0
     SetBorderColor 225 9 0
+    PlayEffect Yellow
+    MinimapIcon 0 Yellow Circle
 
 # will never see these lol
 Show
@@ -29,18 +41,23 @@ Show
     SetTextColor 225 9 0
     SetBackgroundColor 249 250 255 255
     SetBorderColor 225 9 0
+    PlayEffect White
+    MinimapIcon 0 Red Star
 
 # essences 
 Show
     BaseType "Essence of the Body" "Essence of the Mind" "Essence of Enhancement" "Essence of Torment" "Essence of Flames" "Essence of Ice" "Essence of Electricity" "Essence of Ruin" "Essence of Battle" "Essence of Sorcery" "Essence of Haste" "Essence of the Infinite"
     SetBackgroundColor 102 41 10
     PlayAlertSound 2 300
+    MinimapIcon 0 Yellow Triangle
 
 # greater essences
 Show
     BaseType "Greater Essence of the Body" "Greater Essence of the Mind" "Greater Essence of Enhancement" "Greater Essence of Torment" "Greater Essence of Flames" "Greater Essence of Ice" "Greater Essence of Electricity" "Greater Essence of Ruin" "Greater Essence of Battle" "Greater Essence of Sorcery" "Greater Essence of Haste" "Greater Essence of the Infinite"
     SetBackgroundColor 142 61 14
     PlayAlertSound 1 300
+    PlayEffect Yellow
+    MinimapIcon 0 Red Triangle
 
 # other currencies catchall
 Show
@@ -52,21 +69,25 @@ Show
     Class Socketable
     SetBackgroundColor 10 17 102
     PlayAlertSound 2 300
+    MinimapIcon 0 Blue Kite
 
 Show
     Class Charms
     SetBackgroundColor 10 17 102
     PlayAlertSound 3 300
+    MinimapIcon 0 Blue Raindrop
 
 Show
     Class Jewels
     SetBackgroundColor 10 17 102
     PlayAlertSound 3 300
+    MinimapIcon 0 Blue Hexagon
     
 Show
     Sockets S
     PlayAlertSound 3 300
     SetBorderColor 102 41 10
+    MinimapIcon 0 Blue Kite
 
 Show
     Rarity >= Rare
@@ -76,20 +97,30 @@ Show
     BaseType "Uncut Spirit Gem"
     PlayAlertSound 2 300
     SetBackgroundColor 6 45 134 255
+    PlayEffect Cyan
+    MinimapIcon 0 Cyan Moon
 
 
 Show
     BaseType "Uncut Skill Gem"
-    PlayAlertSound 2 300
     SetBackgroundColor 6 15 134 255
 
 Show
     BaseType "Uncut Support Gem"
     PlayAlertSound 2 300
     SetBackgroundColor 36 15 134 255
+    PlayEffect Cyan
+    MinimapIcon 0 Cyan Moon
 
 Show
-    Class Rings Amulets Belts
-    PlayAlertSound 3 300
+    Class Belts
     SetBackgroundColor 134 6 89 255
     SetTextColor 255 255 255
+
+Show
+    Class Rings Amulets
+    PlayAlertSound 3 300
+    SetBackgroundColor 104 4 75 255
+    SetTextColor 255 255 255
+    PlayEffect Purple
+    MinimapIcon 0 Purple Raindrop
