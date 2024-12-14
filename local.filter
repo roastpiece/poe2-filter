@@ -13,13 +13,13 @@ Show
 
 # 'common' currency # no sound
 Show
-    BaseType "Scroll of Wisdom" "Transmutation Shard" 
+    BaseType "Scroll of Wisdom" "Transmutation Shard" "Orb of Augmentation" "Orb of Transmutation" 
     SetBackgroundColor 62 21 5 
     PlayAlertSound 1 0
 
 # rare currency # sound
 Show
-    BaseType "Regal Shard" "Artificer's Shard" "Orb of Transmutation" "Armourer's Scrap" "Blacksmith's Whetstone" "Orb of Augmentation"
+    BaseType "Regal Shard" "Artificer's Shard" "Armourer's Scrap" "Blacksmith's Whetstone"
     SetBackgroundColor 102 41 10
     PlayAlertSound 2 300
     MinimapIcon 0 Yellow Diamond
@@ -30,7 +30,7 @@ Show
     SetBackgroundColor 202 101 34
     PlayAlertSound 1 300
     SetTextColor 5 9 0
-    SetBorderColor 225 9 0
+    SetBorderColor 225 225 0
     PlayEffect Yellow
     MinimapIcon 0 Yellow Circle
 
@@ -94,25 +94,6 @@ Show
     PlayAlertSound 3 300
 
 Show
-    BaseType "Uncut Spirit Gem"
-    PlayAlertSound 2 300
-    SetBackgroundColor 6 45 134 255
-    PlayEffect Cyan
-    MinimapIcon 0 Cyan Moon
-
-
-Show
-    BaseType "Uncut Skill Gem"
-    SetBackgroundColor 6 15 134 255
-
-Show
-    BaseType "Uncut Support Gem"
-    PlayAlertSound 2 300
-    SetBackgroundColor 36 15 134 255
-    PlayEffect Cyan
-    MinimapIcon 0 Cyan Moon
-
-Show
     Class Belts
     SetBackgroundColor 134 6 89 255
     SetTextColor 255 255 255
@@ -124,3 +105,245 @@ Show
     SetTextColor 255 255 255
     PlayEffect Purple
     MinimapIcon 0 Purple Raindrop
+
+# quality
+Show
+    Quality >= 1
+    PlayAlertSound 3 300
+    SetBorderColor 102 41 10
+    MinimapIcon 0 Blue Kite
+
+# Tiered Uncut Gems
+
+Show
+    BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
+    AreaLevel < 4
+    ItemLevel = 1
+    SetBackgroundColor 6 15 134 255
+    PlayAlertSound 2 300
+    PlayEffect Cyan
+    MinimapIcon 0 Cyan Moon
+    Continue
+
+Show
+    BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
+    AreaLevel < 7
+    ItemLevel = 2
+    SetBackgroundColor 6 15 134 255
+    PlayAlertSound 2 300
+    PlayEffect Cyan
+    MinimapIcon 0 Cyan Moon
+    Continue
+
+Show
+    BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
+    AreaLevel < 11
+    ItemLevel = 3
+    SetBackgroundColor 6 15 134 255
+    PlayAlertSound 2 300
+    PlayEffect Cyan
+    MinimapIcon 0 Cyan Moon
+    Continue
+
+Show
+    BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
+    AreaLevel < 15
+    ItemLevel = 4
+    SetBackgroundColor 6 15 134 255
+    PlayAlertSound 2 300
+    PlayEffect Cyan
+    MinimapIcon 0 Cyan Moon
+    Continue
+
+Show
+    BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
+    AreaLevel < 19
+    ItemLevel = 5
+    SetBackgroundColor 6 15 134 255
+    PlayAlertSound 2 300
+    PlayEffect Cyan
+    MinimapIcon 0 Cyan Moon
+    Continue
+
+Show
+    BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
+    AreaLevel < 23
+    ItemLevel = 6
+    SetBackgroundColor 6 15 134 255
+    PlayAlertSound 2 300
+    PlayEffect Cyan
+    MinimapIcon 0 Cyan Moon
+    Continue
+
+Show
+    BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
+    AreaLevel < 27
+    ItemLevel = 7
+    SetBackgroundColor 6 15 134 255
+    PlayAlertSound 2 300
+    PlayEffect Cyan
+    MinimapIcon 0 Cyan Moon
+    Continue
+
+Show
+    BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
+    AreaLevel < 33
+    ItemLevel = 8
+    SetBackgroundColor 6 15 134 255
+    PlayAlertSound 2 300
+    PlayEffect Cyan
+    MinimapIcon 0 Cyan Moon
+    Continue
+
+Show
+    BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
+    AreaLevel < 37
+    ItemLevel = 9
+    SetBackgroundColor 6 15 134 255
+    PlayAlertSound 2 300
+    PlayEffect Cyan
+    MinimapIcon 0 Cyan Moon
+    Continue
+
+Show
+    BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
+    AreaLevel < 42
+    ItemLevel = 10
+    SetBackgroundColor 6 15 134 255
+    PlayAlertSound 2 300
+    PlayEffect Cyan
+    MinimapIcon 0 Cyan Moon
+    Continue
+
+Show
+    BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
+    AreaLevel < 47
+    ItemLevel = 11
+    SetBackgroundColor 6 15 134 255
+    PlayAlertSound 2 300
+    PlayEffect Cyan
+    MinimapIcon 0 Cyan Moon
+    Continue
+
+Show
+    BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
+    AreaLevel < 53
+    ItemLevel = 12
+    SetBackgroundColor 6 15 134 255
+    PlayAlertSound 2 300
+    PlayEffect Cyan
+    MinimapIcon 0 Cyan Moon
+    Continue
+
+Show
+    BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
+    AreaLevel < 59
+    ItemLevel = 13
+    SetBackgroundColor 6 15 134 255
+    PlayAlertSound 2 300
+    PlayEffect Cyan
+    MinimapIcon 0 Cyan Moon
+    Continue
+
+Show
+    BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
+    AreaLevel <= 63
+    ItemLevel = 14
+    SetBackgroundColor 6 15 134 255
+    PlayAlertSound 2 300
+    PlayEffect Cyan
+    MinimapIcon 0 Cyan Moon
+    Continue
+
+Show
+    BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
+    AreaLevel <= 65
+    ItemLevel = 15
+    SetBackgroundColor 6 15 134 255
+    PlayAlertSound 2 300
+    PlayEffect Cyan
+    MinimapIcon 0 Cyan Moon
+    Continue
+
+Show
+    BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
+    AreaLevel <= 69
+    ItemLevel = 16
+    SetBackgroundColor 6 15 134 255
+    PlayAlertSound 2 300
+    PlayEffect Cyan
+    MinimapIcon 0 Cyan Moon
+    Continue
+
+Show
+    BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
+    AreaLevel <= 73
+    ItemLevel = 17
+    SetBackgroundColor 6 15 134 255
+    PlayAlertSound 2 300
+    PlayEffect Cyan
+    MinimapIcon 0 Cyan Moon
+    Continue
+
+Show
+    BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
+    AreaLevel <= 77
+    ItemLevel = 18
+    SetBackgroundColor 6 15 134 255
+    PlayAlertSound 2 300
+    PlayEffect Cyan
+    MinimapIcon 0 Cyan Moon
+    Continue
+
+Show
+    BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
+    AreaLevel <= 81
+    ItemLevel = 19
+    SetBackgroundColor 6 15 134 255
+    PlayAlertSound 2 300
+    PlayEffect Cyan
+    MinimapIcon 0 Cyan Moon
+    Continue
+
+Show
+    BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
+    ItemLevel >= 20
+    SetBackgroundColor 6 15 134 255
+    PlayAlertSound 2 300
+    PlayEffect Cyan
+    MinimapIcon 0 Cyan Moon
+    Continue
+
+# support gems
+Show
+    BaseType "Uncut Support Gem"
+    AreaLevel <= 34
+    ItemLevel = 1
+    SetBackgroundColor 6 15 134 255
+    PlayAlertSound 2 300
+    PlayEffect Cyan
+    MinimapIcon 0 Cyan Moon
+    Continue
+
+Show
+    BaseType "Uncut Support Gem"
+    AreaLevel <= 52
+    ItemLevel = 2
+    SetBackgroundColor 6 15 134 255
+    PlayAlertSound 2 300
+    PlayEffect Cyan
+    MinimapIcon 0 Cyan Moon
+    Continue
+
+Show
+    BaseType "Uncut Support Gem"
+    ItemLevel >= 3
+    SetBackgroundColor 6 15 134 255
+    PlayAlertSound 2 300
+    PlayEffect Cyan
+    MinimapIcon 0 Cyan Moon
+    Continue
+
+Show
+    BaseType "Uncut Skill Gem" "Uncut Spirit Gem" "Uncut Support Gem"
+    SetBackgroundColor 6 15 134 255
