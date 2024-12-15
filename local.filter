@@ -13,9 +13,13 @@ Show
 
 # 'common' currency # no sound
 Show
-    BaseType "Scroll of Wisdom" "Transmutation Shard" "Orb of Augmentation" "Orb of Transmutation" 
+    BaseType "Scroll of Wisdom"
     SetBackgroundColor 62 21 5 
     PlayAlertSound 1 0
+
+Show
+    BaseType "Transmutation Shard" "Orb of Augmentation" "Orb of Transmutation" 
+    SetBackgroundColor 72 41 10
 
 # rare currency # sound
 Show
@@ -26,7 +30,7 @@ Show
 
 # even rarer currency # different sound
 Show
-    BaseType "Chaos Orb" "Exalted Orb" "Orb of Alchemy" "Orb of Chance" "Vaal Orb" "Regal Orb" "Artificer's Orb" "Arcanist's Etcher" "Glassblower's Bauble" "Lesser Jeweller's Orb"
+    BaseType "Chaos Orb" "Exalted Orb" "Orb of Alchemy" "Orb of Chance" "Vaal Orb" "Regal Orb" "Artificer's Orb" "Arcanist's Etcher" "Glassblower's Bauble" "Lesser Jeweller's Orb" "Gemcutter's Prism" "Orb of Annulment"
     SetBackgroundColor 202 101 34
     PlayAlertSound 1 300
     SetTextColor 5 9 0
@@ -36,7 +40,7 @@ Show
 
 # will never see these lol
 Show
-    BaseType "Mirror of Kalandra" "Divine Orb" "Orb of Annulment" "Gemcutter's Prism" "Perfect Jeweller's Orb" "Greater Jeweller's Orb"
+    BaseType "Mirror of Kalandra" "Divine Orb" "Perfect Jeweller's Orb" "Greater Jeweller's Orb"
     PlayAlertSound 6 300
     SetTextColor 225 9 0
     SetBackgroundColor 249 250 255 255
@@ -137,7 +141,7 @@ Show
 
 Show
     BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
-    AreaLevel < 11
+    AreaLevel < 10
     ItemLevel = 3
     SetBackgroundColor 6 15 134 255
     PlayAlertSound 2 300
@@ -147,7 +151,7 @@ Show
 
 Show
     BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
-    AreaLevel < 15
+    AreaLevel < 13
     ItemLevel = 4
     SetBackgroundColor 6 15 134 255
     PlayAlertSound 2 300
@@ -157,7 +161,7 @@ Show
 
 Show
     BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
-    AreaLevel < 19
+    AreaLevel < 17
     ItemLevel = 5
     SetBackgroundColor 6 15 134 255
     PlayAlertSound 2 300
@@ -167,7 +171,7 @@ Show
 
 Show
     BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
-    AreaLevel < 23
+    AreaLevel < 21
     ItemLevel = 6
     SetBackgroundColor 6 15 134 255
     PlayAlertSound 2 300
@@ -177,7 +181,7 @@ Show
 
 Show
     BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
-    AreaLevel < 27
+    AreaLevel < 25
     ItemLevel = 7
     SetBackgroundColor 6 15 134 255
     PlayAlertSound 2 300
@@ -187,7 +191,7 @@ Show
 
 Show
     BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
-    AreaLevel < 33
+    AreaLevel < 31
     ItemLevel = 8
     SetBackgroundColor 6 15 134 255
     PlayAlertSound 2 300
@@ -197,7 +201,7 @@ Show
 
 Show
     BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
-    AreaLevel < 37
+    AreaLevel < 35
     ItemLevel = 9
     SetBackgroundColor 6 15 134 255
     PlayAlertSound 2 300
@@ -207,7 +211,7 @@ Show
 
 Show
     BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
-    AreaLevel < 42
+    AreaLevel < 40
     ItemLevel = 10
     SetBackgroundColor 6 15 134 255
     PlayAlertSound 2 300
@@ -217,7 +221,7 @@ Show
 
 Show
     BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
-    AreaLevel < 47
+    AreaLevel < 45
     ItemLevel = 11
     SetBackgroundColor 6 15 134 255
     PlayAlertSound 2 300
@@ -227,7 +231,7 @@ Show
 
 Show
     BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
-    AreaLevel < 53
+    AreaLevel < 51
     ItemLevel = 12
     SetBackgroundColor 6 15 134 255
     PlayAlertSound 2 300
@@ -237,7 +241,7 @@ Show
 
 Show
     BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
-    AreaLevel < 59
+    AreaLevel < 57
     ItemLevel = 13
     SetBackgroundColor 6 15 134 255
     PlayAlertSound 2 300
