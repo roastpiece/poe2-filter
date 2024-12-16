@@ -352,3 +352,154 @@ Show
 Show
     BaseType "Uncut Skill Gem" "Uncut Spirit Gem" "Uncut Support Gem"
     SetBackgroundColor 6 15 134 255
+
+# waystones
+
+Show
+    Class Waystones
+    Rarity Normal
+    MinimapIcon 0 White Square
+    Continue
+
+Show
+    Class Waystones
+    Rarity Magic
+    MinimapIcon 0 Blue Square
+    Continue
+
+Show
+    Class Waystones
+    Rarity >= Rare
+    MinimapIcon 0 Yellow Square
+    Continue
+
+Show
+    Class Waystones
+    WaystoneTier <= 5
+    SetBorderColor 255 255 255
+    Continue
+
+Show
+    Class Waystones
+    WaystoneTier <= 11
+    WaystoneTier >= 6
+    SetBorderColor 255 255 0
+    Continue
+
+Show
+    Class Waystones
+    WaystoneTier >= 12
+    SetBorderColor 255 0 0
+    Continue
+    
+
+Show
+    Class Waystones
+    WaystoneTier 1
+    AreaLevel <= 65
+    PlayEffect White
+    PlayAlertSound 5 300
+
+Show
+    Class Waystones
+    WaystoneTier 2
+    AreaLevel <= 66
+    PlayEffect White
+    PlayAlertSound 5 300
+
+Show
+    Class Waystones
+    WaystoneTier 3
+    AreaLevel <= 67
+    PlayEffect White
+    PlayAlertSound 5 300
+
+Show
+    Class Waystones
+    WaystoneTier 4
+    AreaLevel <= 68
+    PlayEffect White
+    PlayAlertSound 5 300
+
+Show
+    Class Waystones
+    WaystoneTier 5
+    AreaLevel <= 69
+    PlayEffect White
+    PlayAlertSound 5 300
+
+Show
+    Class Waystones
+    WaystoneTier 6
+    AreaLevel <= 70
+    PlayEffect Yellow
+    PlayAlertSound 5 300
+
+Show
+    Class Waystones
+    WaystoneTier 7
+    AreaLevel <= 71
+    PlayEffect Yellow
+    PlayAlertSound 5 300
+
+Show
+    Class Waystones
+    WaystoneTier 8
+    AreaLevel <= 72
+    PlayEffect Yellow
+    PlayAlertSound 5 300
+
+Show
+    Class Waystones
+    WaystoneTier 9
+    AreaLevel <= 73
+    PlayEffect Yellow
+    PlayAlertSound 5 300
+
+Show
+    Class Waystones
+    WaystoneTier 10
+    AreaLevel <= 74
+    PlayEffect Yellow
+    PlayAlertSound 5 300
+
+Show
+    Class Waystones
+    WaystoneTier 11
+    AreaLevel <= 75
+    PlayEffect Red
+    PlayAlertSound 5 300
+
+Show
+    Class Waystones
+    WaystoneTier 12
+    AreaLevel <= 76
+    PlayEffect Red
+    PlayAlertSound 5 300
+
+Show
+    Class Waystones
+    WaystoneTier 13
+    AreaLevel <= 77
+    PlayEffect Red
+    PlayAlertSound 5 300
+
+Show
+    Class Waystones
+    WaystoneTier 14
+    AreaLevel <= 78
+    PlayEffect Red
+    PlayAlertSound 5 300
+
+Show
+    Class Waystones
+    WaystoneTier 15
+    AreaLevel <= 79
+    PlayEffect Red
+    PlayAlertSound 5 300
+
+Show
+    Class Waystones
+    WaystoneTier 16
+    PlayEffect Red
+    PlayAlertSound 5 300
